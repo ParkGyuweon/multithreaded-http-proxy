@@ -60,6 +60,7 @@ When filtering is enabled, requests for common image extensions such as `.png`, 
 
 ```text
 .
+├── .gitignore
 ├── proxy_server.py
 └── README.md
 ```
