@@ -1,3 +1,10 @@
+"""A small thread-per-connection proxy for plain HTTP traffic.
+
+The proxy intentionally rejects HTTPS CONNECT requests. Image filtering follows
+the original toggle keywords: requesting a URL containing ``image_off`` enables
+image blocking, and ``image_on`` disables it.
+"""
+
 import argparse
 import socket
 import threading
